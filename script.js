@@ -49,7 +49,6 @@ function desencriptar(stringDesencriptada){
 }
 
 function copiarTxt(){
-    
     let texto = document.querySelector('.mensaje');
     let mensajeTXT = texto.value;
 

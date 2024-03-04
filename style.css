@@ -19,13 +19,15 @@ main{
 }
 
 .text-area{
-    border: none;
-    color: #0A3871;
+    border-color: #ec7287;
+    border-radius: 24px;
+    outline:none;
+    color: #ec7287;
     margin-top: 90px;
     text-transform: lowercase;
 }
 
-::placeholder{color: #0A3871; }
+::placeholder{color: #ec7287; }
 
 .text-area :focus{
     outline:none;
@@ -33,11 +35,11 @@ main{
 
 .mensaje{
     background-color: white;
-    background-image: url(imagenes/Muñeco.png);
+    background-image: url(imagenes/Muñecorosa.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
-    color: #0A3871;
+    color: #ec7287;
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
@@ -56,9 +58,9 @@ main{
 
 .btn-desencriptar{
     background-color: #d8dfe8;
-    border: 1px solid #0A3871 ;
+    border: 1px solid #ec7287 ;
     border-radius: 24px;
-    color: #0A3871;
+    color: #ec7287;
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
@@ -67,8 +69,8 @@ main{
 }
 
 .btn-encriptar{
-    background-color: #0A3871;
-    border: 1px solid #0A3871 ;
+    background-color: #ec7287;
+    border: 1px solid #ec7287 ;
     border-radius: 24px;
     color: white;
     cursor: pointer;
@@ -77,9 +79,9 @@ main{
 }
 
 .copiar{
-    border: 1px solid #0A3871 ;
+    border: 1px solid #ec7287 ;
     border-radius: 24px;
-    color:#0A3871;
+    color:#ec7287;
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
