@@ -47,3 +47,17 @@ function desencriptar(stringDesencriptada){
     }
     return stringDesencriptada;
 }
+
+function copiarTxt(){
+    
+    let texto = document.querySelector('.mensaje');
+    let mensajeTXT = texto.value;
+
+    navigator.clipboard.writeText(mensajeTXT)
+        .then(() => {
+            alert("Texto copiado al portapapeles");
+        })
+        .catch(err => {
+            console.error('Error al copiar el texto: ', err);
+        });
+}
